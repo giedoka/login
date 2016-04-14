@@ -43,7 +43,12 @@ html {
                     margin-bottom: 10px;
                     
                     svg {
+                        border-radius: 0;
+                        -moz-border-radius: 0;
+                        -webkit-border-radius: 0;
                         border-bottom-right-radius: 50px;
+                        -moz-border-bottom-right-radius: 50px;
+                        -webkit-border-bottom-right-radius: 50px;
                         background-color: #303030;
                         padding: 6px;
                     }
@@ -64,12 +69,24 @@ html {
                 }
                 input[type='text'], input[type="password"] {
                     height: 60px;
+                    border-radius: 0;
+                    -moz-border-radius: 0;
+                    -webkit-border-radius: 0;
                     border-top-left-radius: 50px;
+                    -moz-border-top-left-radius: 50px;
+                    -webkit-border-top-left-radius: 50px;
                 }
                 input[type="submit"] {
                     height: 40px;
+                    border-radius: 0;
+                    -moz-border-radius: 0;
+                    -webkit-border-radius: 0;
                     border-bottom-left-radius: 50px;
+                    -moz-border-bottom-left-radius: 50px;
+                    -webkit-border-bottom-left-radius: 50px;
                     border-top-right-radius: 50px;
+                    -moz-border-top-right-radius: 50px;
+                    -webkit-border-top-right-radius: 50px;
                     color: $white;
                     border: 2px solid #303030;
                     background-color: #303030;
